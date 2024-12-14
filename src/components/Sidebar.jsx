@@ -1,3 +1,9 @@
+/**
+ * Sidebar component w/ all character images (which are draggable to Box components drop zones).
+ * Handles resizing of sidebar & corresponding resizing of character images, tracking dropped images,
+ * and dynamically updating character image state.
+ */
+
 import React, { useState } from "react";
 import { useDrag } from "react-dnd";
 import "./Sidebar.css";

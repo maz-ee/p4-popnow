@@ -1,3 +1,9 @@
+/**
+ * Box component with drop functionality, randomized hint generation, and notepad for player guess references.
+ * Tracks state for hints, dropped images, and notepad contents and visibility.
+ * Manages interactions displaying hints, updating notes, and handling image drops into boxes, key presses, clicks on boxes, and etc.
+ */
+
 import React, { useState, useEffect } from "react";
 import { useDrop } from "react-dnd";
 

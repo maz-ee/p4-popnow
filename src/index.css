@@ -1,3 +1,7 @@
+/* Global layout styles for the simulator grid and elements within it.
+   Provides user-feedback functions for interactions such as hovering effects, etc.
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;

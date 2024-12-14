@@ -1,3 +1,9 @@
+/**
+ * Grid component renders Box components mapping to set of characters.
+ * Randomly assign characters to boxes s.t. each character maps to a box, and track where character images are dropped.
+ * Passes applicable state and character to Boxes for handling image drops, random hint generation, and etc.
+ */
+
 import React, { useState } from "react";
 import Box from "./Box";
 
