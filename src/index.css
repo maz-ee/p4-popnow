@@ -102,6 +102,7 @@ body {
   margin-top: 5px;
 }
 
+/* text styling for top guess, labeled on box after closing notepad for player's convenient reference*/
 .maybe-text {
   position: absolute;
   top: 50%;

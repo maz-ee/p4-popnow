@@ -75,20 +75,18 @@ const Box = ({ id, character, allCharacters, droppedImgs, setDroppedImgs }) => {
       onKeyDown={handleKeyPress}
       tabIndex={0}
     >
-      {firstRank && <div className="maybe-text">{firstRank}? </div>}
-
+      {firstRank && <div className="maybe-text">{firstRank}? </div>}{" "}
+      {/**text denoting top guess of what that box might contain */}
       <div className={`hint ${clicked ? "" : "hidden"}`}>
         {hints.length > 0
           ? `not ~ ${hints.join(", ")}`
           : "Click to reveal hints"}
       </div>
-
       {droppedImage && (
         <div className="dropped-image">
           <img src={droppedImage} alt="Dropped" />
         </div>
       )}
-
       {isNotepadOpen && (
         <div className="notepad">
           <button className="close-btn" onClick={closeNotepad}>

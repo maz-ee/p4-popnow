@@ -28,6 +28,7 @@ const Grid = () => {
 
   return (
     <div className="grid">
+      {/**for each character, render a box*/}
       {shuffledCharacters.map((character, index) => (
         <Box
           key={index}
